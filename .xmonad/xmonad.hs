@@ -873,6 +873,7 @@ myKeys =
         , ("<XF86MonBrightnessUp>", spawn "brightnessctl -d 'intel_backlight' set 10%+")
         , ("<XF86MonBrightnessDown>", spawn "brightnessctl -d 'intel_backlight' set 10%-")
         , ("M1-<Space>", spawn "$HOME/.xmonad/bin/change_lang.sh")
+        , ("M1-s", spawn "xlock")
 
         ]
 
