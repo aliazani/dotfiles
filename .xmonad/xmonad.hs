@@ -727,6 +727,7 @@ myManageHook = composeAll
      [ className =? "firefox"     --> doShift ( myWorkspaces !! 1 )
      , className =? "mpv"     --> doShift ( myWorkspaces !! 7 )
      , className =? "Gimp"    --> doShift ( myWorkspaces !! 8 )
+     , className =? "telegram-desktop"    --> doShift ( myWorkspaces !! 5 )
      -- , className =? "Gimp"    --> doFloat
      , title =? "Oracle VM VirtualBox Manager"     --> doShift (myWorkspaces !! 4)
      , className =? "VirtualBox Manager" --> doShift  ( myWorkspaces !! 4 )
